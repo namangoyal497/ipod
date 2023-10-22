@@ -1,0 +1,13 @@
+.locked{
+    margin-top:173px;
+    margin-left:-2px;
+    display: flex;
+    width: 274px;
+    height: 20px;
+    min-height: 20px;
+    background-color:#E2F2ED;
+    /* border-bottom: 1px solid orange; */
+    padding: 0px 0px;
+}
+
+
