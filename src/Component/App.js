@@ -177,10 +177,14 @@ class App extends React.Component{
   setWheelColor=(id)=>{
     let wheelColor="";
     if(id===0){
-     wheelColor="#212121";
+    //  wheelColor="#212121";
+    wheelColor="black";
     }
     else if(id===1){
       wheelColor="white";
+     }
+     else{
+          wheelColor="#B70404";
      }
     
      this.setState({wheelColor:wheelColor,noty:true,notifyText:"wheel color changed"})
